@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/x-icon" href="./images/favicon.ico"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css"/>
+
+  <title>Login Form | CSS3</title>
+</head>
+<body>
+  <main>
+    <header>
+      <img src="./images/logo.svg" alt="Company Logo"/>
+    </header>
+    <div id="left-container">
+      <form action="" method="post">
+        <div class="input-area">
+          <div class="login-header">
+            <strong>
+              <img src="./images/log-in.svg" alt="Login Icon"/>
+              Faça seu login
+            </strong>
+            <span>Entre com suas informações de cadastro.</span>
+          </div>
+
+          <label for="email">E-mail</label>
+          <input name="email" type="email" placeholder="Digite seu e-mail" required/>
+
+          <label for="psw">Senha</label>
+          <input name="psw" type="password" placeholder="Digite sua senha" required/>
+        
+          <div class="checkbox-row">
+            <input id="save-my-info" type="checkbox"/>Lembre-me
+            <!-- Aqui provavelmente vem mais coisas pra fazer o custom checkbox -->
+            <span class="recover-psw"><a href="#">Esqueci minha senha</a></span>
+          </div>
+        </div>
+
+        <button class="btn-login" type="submit">ENTRAR</button>
+        <span class="signup">Não tem uma conta?<a href="#">Registre-se!</a></span>
+      </form>
+    </div>
+    <div id="right-image">
+      <img src="./images/side-image-2x.jpg" alt="Jeep Image">
+    </div>
+  </main>
+</body>
+</html>
